@@ -1,5 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';// Envuelve toda la app y activa el sistema de rutas en el navegador. 
+// Routes define las rutas de la aplicación y Route define cada ruta individualmente.
+// Cada ruta tiene un path (la URL) y un elemento que se renderiza cuando se accede a esa ruta.
+import './App.css'; // Importa el archivo CSS para aplicar estilos a la aplicación.
 import ListaRestaurantes from "./Componentes/ListaRestaurantes";
 import CrearRestaurante from "./Componentes/CrearRestaurante";
 import Inicio from './Componentes/Inicio';
@@ -41,7 +43,7 @@ function App() {
     UrlImagen: "",
   });
   const agregarRestaurante = (nuevoRestaurante) => {
-      setRestaurantes((prev) => [...prev, nuevoRestaurante]);
+      setRestaurantes((prev) => [...prev, nuevoRestaurante]);//agrega un nuevo restaurante al estado de restaurantes
     };
 
   return (

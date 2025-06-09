@@ -10,6 +10,7 @@ function CrearRestaurante (props){
                 reputacion: props.state.reputacion,
                 UrlImagen: props.state.UrlImagen
             };
+            
             props.agregarRestaurante(nuevoRestaurante);
             alert("Restaurante creado exitosamente");
             (props.setState({nombre:"", direccion:"", tipo:"", reputacion:"", UrlImagen:""}))//Se limpia el formulario

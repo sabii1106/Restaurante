@@ -1,8 +1,8 @@
 import {Link, useNavigate} from 'react-router-dom';
 
 function Incio() {
-    const navigate = useNavigate();
-    const handleLista=()=> {
+    const navigate = useNavigate(); //Se llama a useNavigate() para obtener una función (navigate) que permite cambiar de ruta.
+    const handleLista=()=> {//hook aqui esta para cambiar de ruta 
         navigate("/lista");
     }
     const handleCrear=()=> {
