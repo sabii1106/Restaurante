@@ -18,6 +18,7 @@ function CrearRestaurante (props){
             const navigate = useNavigate();
             const handleInicio = () => {
                 navigate("/");
+                navigate("/");
             }
             const handleLista = () => {
                 navigate("/lista");

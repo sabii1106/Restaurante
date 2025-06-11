@@ -7,13 +7,18 @@ import CrearRestaurante from "./Componentes/CrearRestaurante";
 import Inicio from './Componentes/Inicio';
 import React, { useState } from 'react';
 
+//dame el codigo para en mi repositorio hacerle react 
+
+
 function App() {
   // Mueve el estado aquí
    const [restaurantes, setRestaurantes] = useState([
       {
         nombre: "El Redil",
         direccion: "Shyris y Matamoros",
-        tipo: "Tradicional",
+        tipo
+// o9sea es un proyecto nuevo que quiero hacerle tipo react 
+: "Tradicional",
         reputacion: 1,
         UrlImagen:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkGTV9ptpoJ1nv8SE8QJ_A4-pCjnd46axWiA&s",

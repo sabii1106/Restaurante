@@ -1,0 +1,49 @@
+{
+    "restaurantes": [
+        {
+            "id": 1,
+            "nombre": "La Parrilla",
+            "direccion": "Calle 123, Ciudad",
+            "tipo": "Carnes",
+            "UrlImagen": "https://example.com/parrilla.jpg",
+            "reputacion": 4.5
+        },
+        {
+            "id": 2,
+            "nombre": "El Marisco Feliz",
+            "direccion": "Avenida 456, Ciudad",
+            "tipo": "Mariscos",
+            "UrlImagen": "https://example.com/marisco.jpg",
+            "reputacion": 4.2
+        },
+        {
+            "id": 3,
+            "nombre": "Pasta y Punto",
+            "direccion": "Boulevard 789, Ciudad",
+            "tipo": "Italiana",
+            "UrlImagen": "https://example.com/pasta.jpg",
+            "reputacion": 4.7
+        }
+    ],
+
+"clientes": [
+    {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "telefono": "555-1234"
+    },
+    {
+        "id": 2,
+        "nombre": "María López",
+        "email": "maria.lopez@example.com",
+        "telefono": "555-5678"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Gómez",
+        "email": "carlos.gomez@example.com",
+        "telefono": "555-9012"
+    }
+]
+}
